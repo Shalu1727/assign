@@ -1,0 +1,21 @@
+# What I Would Build With Another Week
+
+With another week, I would focus on improving NEXORA in four areas: reliability, usability, observability, and resource intelligence.
+
+### 1. Advanced Booking Management
+
+I would add drag-and-drop calendar rescheduling, bulk cancellation/rescheduling for recurring bookings, and improved handling of recurring booking conflicts.
+
+### 2. Audit & Observability
+
+I would introduce an administrative audit log for important actions such as resource changes, booking approvals/rejections, cancellations, and permission-sensitive operations. I would also add structured application logging and basic performance monitoring.
+
+### 3. Better Resource Intelligence
+
+I would expand the analytics dashboard with resource utilization trends, peak booking hours, underutilized resources, and capacity utilization to help administrators make better resource-allocation decisions.
+
+### 4. Reliability & Testing
+
+I would expand automated integration and concurrency testing, particularly around simultaneous booking requests, recurring bookings, approval workflows, RLS policies, and real-time notification delivery.
+
+The goal would be to move NEXORA from a strong prototype toward a more production-ready internal platform while keeping the existing database-level correctness and security guarantees intact.
